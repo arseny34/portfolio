@@ -1,0 +1,42 @@
+html {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+p {
+  margin: 0;
+}
+
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-width: 375px;
+  position: relative;
+  color: #070707;
+  @extend %gilroy-medium;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.container {
+  max-width: 944px;
+  margin: 0 auto;
+}
+
+.title {
+  @extend %gilroy-bold;
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+}
+
+
