@@ -219,6 +219,21 @@
     max-width: 80px;
     text-align: center;
   }
+  &__rating {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__rating-item {
+    font-size: 30px;
+    line-height: 26px;
+    color: #070707;
+  }
+  &__rating-item + .skills__rating-item {
+    margin-left: 9px;
+  }
+  &__rating-item--deactive {
+    color: #e5e5e5;
+  }
 }
 
 .portfolio {
